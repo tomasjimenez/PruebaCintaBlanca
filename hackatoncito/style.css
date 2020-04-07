@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.background{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./assets/medico.png);
+    background-size: 1500px 900px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.nav{
+    height: 90px;
+    width: 100vw;
+    background-color: #195379;
+    box-shadow: 2px 2px 20px 1px black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.links a:hover{
+    color: white;
+}
+
+.links a{
+    text-decoration: none;
+    color: #FEA83C;
+    font-size: 20px;
+    margin-right: 20px ;
+}
+
+.footer{
+    height: 90px;
+    width: 100vw;
+    background-color: #195379;
+}
+
+.central{
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo{
+    color: white;
+    font-size: 40PX;
+    
+}
+.texto{
+
+    width: 500px;
+    color: white;
+    font-size: 20px;
+    padding: -10px 5px;
+    margin: -30px 90px 0px 100px;
+    text-align: center;
+}
+.boton{
+    background-color: #FEA83C;
+    border: solid 1px  #FEA83C;
+    border-radius: 10px;
+    width: 342px;
+    height: 62px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #0E2547;
+}
+
+.footer p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}

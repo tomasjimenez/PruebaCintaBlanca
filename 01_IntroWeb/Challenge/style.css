@@ -1,0 +1,29 @@
+
+*{
+    background-color: burlywood;
+}
+
+.foto2{
+    width: 200px;
+    display:block;
+    margin:auto;
+}
+
+.edad{
+    text-align: center;
+}
+
+.telefono{
+    text-align: center;
+}
+
+h1{
+text-align: center;
+}
+
+.foto3{
+    width: 300px;
+}
+.foto1{
+    width: 200px;
+}

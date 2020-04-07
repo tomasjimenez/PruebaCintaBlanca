@@ -1,0 +1,31 @@
+*{
+    background-color: aquamarine;
+}
+
+h1{
+    color: rgb(158, 154, 154);
+    text-align: center;
+}
+
+img{
+ width: 200px;
+}
+
+span{
+    color:yellow;
+}
+
+/* Para llamar a la clase es con un "."  + "nombre" */
+
+.perritoMono{
+    width: 500px;
+}
+
+.perrito2{
+    width: 300px;
+}
+
+.parrafo{
+    color: red;
+    font-size: large;
+}

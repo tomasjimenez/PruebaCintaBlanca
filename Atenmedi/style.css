@@ -1,0 +1,732 @@
+
+/* *{
+    margin: 0 0px;
+    padding: 0 0px;
+
+} */
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.4rem;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+    max-width: 100vw;
+ }
+
+
+/* PARTE DE ARRIBA HEADER CON BOTONES DERECHOS ESQUINA LOGOTIPO Y BARRA DE NAVEGACION */
+
+ .headerfondo{
+     border: solid px black;
+     width: 100%;
+     height: 70vh;
+     background-image: url(./assets/img/imgbanner1.png);
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+ }
+
+
+ .logoynav{
+    border: solid px black;
+    width: 100vw;
+    height: 77vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+ }
+
+ .botonesarribaderecha{
+    border: solid px green;
+    width: 96.5%;
+    height: 0%;
+    display: flex;
+    justify-content: center;
+    padding: 14px 10px 40px 60px;
+    background-color: #3E6B95;
+    box-shadow: 2px 10px 30px #666;
+    margin: 0px 30px 0px 10px;
+
+ }
+
+ .logotipo{
+    border: solid px blue;
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 0px 150px 0px;
+ }
+
+ .logotipo img{
+     width: auto;
+     border: solid px green;
+     margin-top: 150px;
+     margin-left: 60px;
+ }
+
+ .logotipo p{
+    /* border: solid 1px green; */
+    color: white;
+    margin-top: 50px; 
+    /* margin-left: 10px; */
+    width: auto;
+    /* padding-left: 1040px; */
+    font-size: 25px;
+    margin-left: 90px;
+
+ }
+
+ .seccionabajoheader{
+    border: solid px red;
+    width: 97.1%;
+    height: 10%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 40px;
+    padding-top: 2px;
+    margin-top: 20px;
+ }
+
+ .agendar{
+    border: solid 2px white;
+    margin: 10px 10px 10px 10px;
+    border-radius: 60px;
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px 30px 20px;
+    font-size: 20px;
+ 
+
+ }
+
+ .agendar:hover{
+     color: white;
+     background-color: #E7442E;
+ }
+
+ .descargar:hover{
+    color: white;
+    background-color: #3E6B95;
+
+}
+
+ .descargar{
+    border: solid 2px white;
+    margin: 10px 10px 10px 10px;
+    border-radius: 60px;
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px 30px 20px;
+    font-size: 20px;
+ }
+
+.inicio, .quienes, .servicios{
+    border: solid px red;
+    margin: 0px 40px 10px 50px;
+    color: white;
+    text-decoration: none;
+
+}
+
+.inicio:hover, .quienes:hover, .servicios:hover{
+    color:black ;
+}
+
+
+/* PARTE DE ARRIBA HEADER CON BOTONES DERECHOS ESQUINA LOGOTIPO Y BARRA DE NAVEGACION */
+
+
+.masnosotros{
+    border: solid px green;
+    width: 30%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    margin-left: 500px;
+
+}
+
+.masnosotros p{
+    font-size: 30px;
+}
+
+.about-us{
+    border: solid px red;
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-center;
+    margin: 30px 0px 30px 0px;
+}
+
+.servicio{
+    border: solid px blue;
+    width: 7%;
+    height: 100%;
+    margin-right: 30px;
+}
+
+.eficiencia{
+    border: solid px green;
+    width: 10%;
+    height: 90%;
+    margin-right: 20px;
+}
+
+
+.calidad{
+    border: solid px black;
+    width: 20%;
+    height: 90%;
+    margin-left: 70px;
+    margin-right: 40px;
+    padding: 0px 50px;
+}
+
+
+
+.calidadjpg{
+    border: solid px green;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.calidadjpg img{
+    width: 150px;   
+}
+
+.calidadtitulo{
+    border: solid px green;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.calidadtitulo:hover{
+    color: #3E6B95;
+}
+
+.serviciotitulo:hover{
+    color: #3E6B95;
+}
+
+.eficienciatitulo:hover{
+    color: #3E6B95;
+}
+
+.calidadtitulo p{
+    font-size: 30px;
+}
+
+.calidadtext{
+    border: solid px red;
+    display: flex;
+    height: 26%;
+    width: 390px;
+    justify-content: center;
+    padding-top: 9px;
+    margin-left: -52.5px;
+}
+
+.calidadtext p{
+    text-align: center;
+
+    font-size: 20px;
+}
+
+
+
+.servicio{
+    border: solid px black;
+    width: 30%;
+    height: 90%;
+}
+
+.serviciojpg{
+    border: solid px green;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.serviciojpg img{
+    width: 150px;   
+}
+
+.serviciotitulo{
+    border: solid px green;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.serviciotitulo p{
+    font-size: 30px;
+}
+
+.serviciotext{
+    border: solid px red;
+    display: flex;
+    height: 60%;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.serviciotext p{
+    text-align: center;
+
+    font-size: 20px;
+}
+
+
+.eficiencia{
+    border: solid px black;
+    width: 30%;
+    height: 90%;
+}
+
+.eficienciajpg{
+    border: solid px green;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    
+}
+.eficienciajpg img{
+    width: 150px;   
+}
+
+.eficienciatitulo{
+    border: solid px green;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.eficienciatitulo p{
+    font-size: 30px;
+}
+
+.eficienciatext{
+    border: solid px red;
+    display: flex;
+    height: 60%;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.eficienciatext p{
+    text-align: center;
+
+    font-size: 20px;
+}
+
+.nuestrosserviciostxt{
+    border: solid px green;
+    width: 34%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px 10px 0px;
+    margin-left: 480px;
+}
+
+.nuestrosserviciostxt p{
+    font-size: 30px;
+}
+
+.ofertabotones{
+    border: solid px black;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0px 20px 0px;
+
+}
+
+.campaña{
+    border: solid px black;
+    width: 25%;
+    height: 500px;
+    background-color: #f5f5f5;
+    border-radius: 40px;
+    box-shadow: 2px 10px 10px #666;
+}
+
+.campañajpg{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.campaña img{
+    border-radius: 20px;
+}
+
+.campañatitulo{
+   
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.campañatxt{
+    border: solid px black;
+    margin: -20px 10px 40px 10px;
+}
+
+.campañatxt p{
+    border: solid px black;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+
+
+
+.planbeneficios{
+    border: solid px black;
+    width: 25%;
+    height: 500px;
+    background-color: #f5f5f5;
+    border-radius: 40px;
+    box-shadow: 2px 10px 10px #666;
+}
+
+.planbeneficiosjpg{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.planbeneficios img{
+    border-radius: 20px;
+}
+
+.planbeneficiostitulo{
+    border: solid px black;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.planbeneficiostxt{
+    border: solid px black;
+    margin: -20px 10px 40px 10px;
+}
+
+.planbeneficiostxt p{
+    border: solid px black;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+
+.plansalud{
+    border: solid px black;
+    width: 25%;
+    height: 500px;
+    background-color: #f5f5f5;
+    border-radius: 40px;
+    box-shadow: 2px 10px 10px #666;
+}
+
+.plansaludjpg{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.plansalud img{
+    border-radius: 20px;
+}
+
+.plansaludtitulo{
+    border: solid px black;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.plansaludtxt{
+    border: solid px black;
+    margin: -20px 10px 40px 10px;
+}
+
+.plansaludtxt p{
+    border: solid px black;
+    font-size: 18px;
+    text-align: center;
+}
+
+.botonesplanes{
+    border: solid px black;
+    width: 95%;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 40px;
+    margin-bottom: 50px;
+}
+
+.accedeservicio{
+    border: solid 1px black;
+    padding-top: 13px;
+    padding-left: 40px;
+    border-radius: 40px;
+    width: 280px;
+    background-color: #3E6B95;
+    margin: 5px -60px 5px -60px;
+    box-shadow: 2px 10px 30px #666;
+}
+
+.accedeservicio a{
+    text-decoration: none;
+    color: white;
+}
+
+.afiliate{
+    border: solid 1px black;
+    margin: 5px 40px 5px 80px;
+    padding-top: 13px;
+    padding-left: 0px;
+    border-radius: 40px;
+    width: 240px;
+    background-color: #3E6B95;
+    box-shadow: 2px 10px 30px #666;
+}
+
+.afiliate a{
+    text-decoration: none;
+    color: white;
+    margin-left: 80px;
+}
+
+.accede{
+    border: solid 1px black;
+    margin: 5px -20px 5px 30px;
+    padding-top: 13px;
+    padding-left: 0px;
+    border-radius: 40px;
+    width: 240px;
+    background-color: #3E6B95;
+    box-shadow: 2px 10px 30px #666;
+
+}
+
+.accede a{
+    text-decoration: none;
+    color: white;
+    margin-left: 80px;
+}
+
+
+/* PORTAFOLIO IMAGENES */
+
+.portafoliotxt{
+    border: solid px green;
+    width: 34%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px 10px 0px;
+    margin-left: 480px;
+    margin-top: 70px;
+}
+
+.portafoliotxt p{
+    font-size: 30px;
+}
+
+.contenedor-imagenes{
+    border: solid px green;
+    display:flex;
+    width: 60%;
+    margin: 0px 50px 30px 300px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius:0px;
+
+}
+
+.contenedor-imagenes .imagen{
+    width: 32%;
+    position: relative;
+    height:220px;
+    height: 200px;
+    margin-bottom:20px;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, .75);
+    border-radius: 20px;
+}
+.imagen img{
+    width: 100%;
+    height:100%;
+    object-fit: contain;
+    border-radius: 20px;
+}
+
+.overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background:#0CC8D5 ;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    transition: .6s ease;
+    border-radius: 20px;
+}
+
+.overlay h2{
+    color: #fff;
+    font-weight: 300;
+    font-size:20px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.imagen:hover .overlay{
+    height:100%;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1000px){
+    .contenedor-imagenes{
+        width: 95%;
+    }
+}
+
+@media screen and (max-width:700px){
+    .contenedor-imagenes{
+        width: 90%;
+    }
+    .contenedor-imagenes .imagen{
+        width: 48%;
+    }
+}
+
+@media screen and (max-width:450px){
+    h1{
+        font-size:22px;
+    }
+    .contenedor-imagenes{
+        width: 98%;
+    }
+    .contenedor-imagenes .imagen{
+        width: 80%;
+    }
+}
+
+/* SECCION ANTES DE FOOTER */
+
+.abajoizq{
+    border: solid px black;
+    width: 50%;
+    height: 520px;
+}
+
+.abajoderecha{
+    border: solid px blue;
+    width: 50%;
+    height: 520px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.antesfooter{
+    border: solid px green;
+    display: flex;
+    height: 580px;
+}
+
+.encuentranostxt{
+    border: solid px;
+    height: 60px;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+
+
+.mapa{
+    border: solid px;
+    height: 460px;
+}
+
+.redesimg{
+    border: solid px;
+    display: flex;
+    justify-content: center;
+}
+
+.siguenostxt{
+    border: solid px;
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px 0px 0px;
+}
+
+.siguenostxt p{
+    font-size: 30px;
+}
+
+.fbicon, .linkdicon, .yticon, .igicon{
+    border: solid px;
+    width: 300px;
+    display: flex;
+}
+
+.contactanostxt{
+    display: flex;
+    justify-content: center;
+}
+
+.contactanostxt p{
+    font-size: 30px;
+}
+
+.correo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.correo p{
+    font-size: 20px;
+}
+
+.footer{
+    border: solid px;
+    height: 100px;
+    background-color: #3E6B95;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}

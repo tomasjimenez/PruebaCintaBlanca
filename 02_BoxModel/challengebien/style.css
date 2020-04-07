@@ -1,0 +1,47 @@
+nav{
+    border: solid px black;
+    padding-left: 1210px;
+}
+
+
+.nav-primary-links{
+    border: solid px black;
+    padding-bottom: 25px;
+}
+
+.nav-primary-links a{
+    text-decoration: none;
+    color: black;
+    margin: 0 5px;
+}
+
+.img1{
+    width: 30px;
+}
+/* main start */
+
+.main-container{
+    border: solid px;
+    padding-left: 550px;
+    padding-top: 150px;
+}
+
+img{
+    width: 300px;
+}
+
+.search-input{
+    border: solid px;
+}
+
+.search-input input{
+    width: 300px;
+    height: 30px;
+    border-radius: 20px;
+    border: solid px gray;
+}
+
+.search-buttons button{
+    height: 35px;
+    margin: 20px 12px;
+}
