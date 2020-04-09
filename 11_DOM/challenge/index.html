@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <h1>Pide tu Pizza !!</h1>
+
+    <form class="d-flex justify-content-center">
+                
+        <div class="form-group">
+          <label for="formGroupExampleInput">Nombre</label>
+          <input type="text" name="" id="nombre" >
+        </div>
+
+        <div class="form-group">
+          <label for="formGroupExampleInput2">Telefono</label>
+          <input type="text" name="" id="telefono" >
+        </div>
+
+        <div class="form-group">
+            <label for="formGroupExampleInput2">Pizza</label>
+            <input type="text" name="" id="pizza" placeholder="Escribe si o no">
+          </div>
+
+          <div class="form-group">
+            <label for="formGroupExampleInput2">Dirección</label>
+            <input type="text" name="" id="direccion" >
+          </div>
+
+      </form>
+      
+      <section class="d-flex justify-content-around flex-column">
+
+      <button id="boton" type="button" class="btn btn-success">Pedir Pizza</button>
+
+      <div id="card" class="card customCard" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title" id="respuesta1"></h5>
+          <h6 class="card-subtitle mb-2 text-muted" id="respuesta2"></h6>
+          <p class="card-text" id="respuesta3"></p>
+          <p class="card-text" id="respuesta4"></p>
+        </div>
+      </div>
+      
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</html>
